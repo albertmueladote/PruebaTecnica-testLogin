@@ -11,7 +11,7 @@
         <!-- Add icon library -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <div class="card">
-          <img src="<?php echo IMG . "yo.jpg" ?>" alt="John" style="width:100%">
+          <img src="<?php echo IMG . $current_user->image; ?>" alt="John" style="width:100%">
           <h1><?php echo $current_user->name; ?></h1>
           <p class="title"><?php echo $current_user->job; ?></p>
           <p><?php echo $current_user->origin; ?></p>

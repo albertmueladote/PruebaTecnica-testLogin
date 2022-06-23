@@ -12,6 +12,7 @@ class user extends main{
     private $email;
     private $origin;
     private $job;
+    private $image;
     private $social;
     private $password;
     private $last_login;
@@ -49,6 +50,7 @@ class user extends main{
             $this->email = $user['email'];
             $this->origin = $user['origin'];
             $this->job = $user['job'];
+            $this->image = $user['image'];
             $this->social = $user['social'];
             $this->password = $user['password'];
             $this->last_login = date('y-m-d H:i:s');
@@ -84,6 +86,7 @@ class user extends main{
             $this->email = $user['email'];
             $this->origin = $user['origin'];
             $this->job = $user['job'];
+            $this->image = $user['image'];
             $this->social = $user['social'];
             $this->password = $user['password'];
             $this->last_login = $user['last_login'];

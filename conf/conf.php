@@ -1,5 +1,4 @@
 <?php
-
 define("PATH", $_SERVER['DOCUMENT_ROOT'] . '/login/');
 define("ROOT", (!empty($_SERVER['HTTPS']) ? 'https' : 'http') . '://' . $_SERVER['HTTP_HOST'] . '/login/');
 define("_CLASS", PATH . "class/");
@@ -28,7 +27,7 @@ session_start();
 
 $main = new main();
 $current_user = null;
-
+	
 if(isset($_COOKIE[COOKIE_NAME]))
 {
 	$session = new session($_COOKIE[COOKIE_NAME]);
