@@ -1,0 +1,9 @@
+Options +FollowSymLinks 
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+RewriteRule ^entrar controller/form.cntrl.php [L]
+RewriteRule ^login controller/login.cntrl.php [L]
+RewriteRule ^logout controller/logout.cntrl.php [L]
+RewriteRule ^perfil controller/profile.cntrl.php [L]

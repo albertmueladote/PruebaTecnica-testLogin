@@ -1,0 +1,13 @@
+.error{
+	background-color: #E75F42;
+	margin: 10px 5px;
+	text-align: center;
+}
+
+.card{
+	margin-top: 50px;
+}
+
+.card p #logout{
+	margin-top: 32px;
+}
