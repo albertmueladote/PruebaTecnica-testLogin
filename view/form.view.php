@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html> 
   <head>
+      <title>Login</title>
       <?php include(BLOCK . 'header.block.php'); ?>
       <link rel="stylesheet" href="<?php echo CSS . 'form.css'?>">
       <link rel="stylesheet" href="<?php echo CSS . 'style.css'?>">

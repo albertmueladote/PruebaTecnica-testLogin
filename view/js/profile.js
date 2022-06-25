@@ -13,10 +13,10 @@ $('#logout').click(function(e) {
             }
         },
         error : function(xhr, status) {
-            console.log('error');
+            
         },
         complete : function(xhr, status) {
-            console.log('complete');
+            
         }
     });
 });

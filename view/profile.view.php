@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html> 
   <head>
-      <?php include(BLOCK . 'header.block.php'); ?>
+      <title>Perfil</title>
+      <?php include(BLOCK . 'header.block.php'); ?> 
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
       <link rel="stylesheet" href="<?php echo CSS . 'profile.css'?>">
       <link rel="stylesheet" href="<?php echo CSS . 'style.css'?>">
   </head>
@@ -9,7 +11,6 @@
     <div class="container-fluid"> 
       <div class="rows">
         <!-- Add icon library -->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <div class="card">
           <img src="<?php echo IMG . $current_user->image; ?>" alt="John" style="width:100%">
           <h1><?php echo $current_user->name; ?></h1>

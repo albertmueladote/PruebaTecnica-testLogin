@@ -26,7 +26,7 @@ if(isset($_POST['email']) && isset($_POST['password'])){
 		$result = array('result' => false, 'message' => 'Contraseña demasiado corta');
 	}
 }else{
-	$result = array('result' => false, 'message' => 'Código de error 001');
+	$result = array('result' => false, 'message' => 'Error desconocido');
 }
 
 echo json_encode($result);

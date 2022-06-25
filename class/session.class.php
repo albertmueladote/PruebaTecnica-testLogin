@@ -1,14 +1,23 @@
 <?php
 
-require_once('main.class.php');
-
  /**
  * session
  */
 class session extends main{
     
+    /**
+     * string $id
+     */
     private $id;
+
+    /**
+     * datetime $access
+     */
     private $access;
+
+    /**
+     * int $data
+     */
     private $data;
     
     /**

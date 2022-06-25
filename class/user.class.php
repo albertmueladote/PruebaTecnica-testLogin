@@ -1,22 +1,63 @@
 <?php
 
-require_once('main.class.php');
-
 /**
  * user
  */
 class user extends main{
     
+    /**
+     * int $id
+     */
     private $id;
+
+    /**
+     * string $name
+     */
     private $name;
+
+    /**
+     * string $email
+     */
     private $email;
+
+    /**
+     * string $origin
+     */
     private $origin;
+
+    /**
+     * string $job
+     */
     private $job;
+
+    /**
+     * string $image
+     */
     private $image;
+
+    /**
+     * json $social
+     */
     private $social;
+
+    /**
+     * string $password
+     */
     private $password;
+
+    /**
+     * datetime $last_login
+     */
     private $last_login;
+
+    /**
+     * datetime $modifed
+     */
     private $modifed;
+
+    /**
+     * datetime $created
+     */
     private $created;
        
     /**
@@ -34,8 +75,7 @@ class user extends main{
     
     /**
      * login
-     *
-     * @return void
+     * @return boolean
      */
     public function login()
     {

@@ -4,7 +4,7 @@ define("ROOT", (!empty($_SERVER['HTTPS']) ? 'https' : 'http') . '://' . $_SERVER
 define("_CLASS", PATH . "class/");
 define("VIEW", PATH . "view/");
 define("BLOCK", VIEW . "blocks/");
-define("CONTROLLER", "../controller/");
+define("CONTROLLER", PATH . "controller/");
 define("CSS", "../view/css/");
 define("JS", "../view/js/");
 define("IMG", "../view/images/");
